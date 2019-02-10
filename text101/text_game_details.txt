@@ -1,0 +1,7 @@
+game theme: old mcdonald had a farm
+
+image to sum up game theme: rolling hills, cows, bulls
+
+player: 
+
+goal:
