@@ -12,4 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e084b503164949a092b0686c2d9b6a3, type: 3}
   m_Name: State2
   m_EditorClassIdentifier: 
-  storyText: 
+  storyText: '3 Cows
+
+    1 Bull'
+  nextStates:
+  - {fileID: 11400000, guid: 2906219dd537448dd85f3c0a381034a2, type: 2}
+  - {fileID: 11400000, guid: d0177cc5c7bef4601ba2c0154672821a, type: 2}
