@@ -2,12 +2,21 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+//[SerializeField] Text textGuessComponent;
 
 public class SceneLoader : MonoBehaviour
 {
+    [SerializeField] Text textGuessComponent;
     int max;
     int min;
     int guess;
+
+    public int GetGuess()
+    {
+        return guess;
+    }
 
     public void LoadNextScene()
     {
@@ -27,14 +36,15 @@ public class SceneLoader : MonoBehaviour
         guess = 500;
     }
 
+    /*
     void Start()
     {
         Debug.Log("start: " + max + " " + min + " " + guess);
         StartGame();
         Debug.Log(max + " " + min + " " + guess);
+        textGuessComponent.text = guess.ToString();
     }
-
-    /*
+        
     private void Update()
     {
         Debug.Log("update");
