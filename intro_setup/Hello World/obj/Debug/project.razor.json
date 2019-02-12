@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/Users/awe/proj/software/practice/udemy/gameDev/unity2D/intro_setup/Hello World/Assembly-CSharp.csproj",
+  "TargetFramework": "v4.7.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
