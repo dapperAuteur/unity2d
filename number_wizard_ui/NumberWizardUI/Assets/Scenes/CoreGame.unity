@@ -1228,7 +1228,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 175866638}
+      - m_Target: {fileID: 1869275569}
         m_MethodName: OnPressHigher
         m_Mode: 1
         m_Arguments:
@@ -2075,7 +2075,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 175866638}
+      - m_Target: {fileID: 1869275569}
         m_MethodName: OnPressLower
         m_Mode: 1
         m_Arguments:
