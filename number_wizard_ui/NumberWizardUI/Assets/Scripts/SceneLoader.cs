@@ -36,6 +36,11 @@ public class SceneLoader : MonoBehaviour
         guess = 500;
     }
 
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     /*
     void Start()
     {
